@@ -16,10 +16,25 @@ public class HomeService {
 	@RequestMapping(value = "/")
 	public ModelAndView loadHomePage() {
 
-		System.out.println("yes");
 		ModelAndView mod = new ModelAndView();
 		mod.setViewName("home");
 
 		return mod;
 	}
+
+	@RequestMapping(value = "/experience-center")
+	public ModelAndView loadExperienceCenterPage() {
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("experience-center");
+
+		return mv;
+	}
+
+	@RequestMapping(value = "/submit-order")
+	public ModelAndView loadOrderPage() {
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("submit-order");
+		return mv;
+	}
+
 }
