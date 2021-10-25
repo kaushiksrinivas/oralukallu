@@ -24,8 +24,8 @@
 </style>
 <body>
 	<div class="container">
-		<img src="beige.jpg" alt="Snow" style="width: 100%;">
-		<div class="centered"> Your orders will be accepted shortly ..</div>
+		<img src="beige.jpg" alt="Snow" style="width: 100%; height: 100%">
+		<div class="centered">Your orders will be accepted shortly ..</div>
 	</div>
 </body>
 </html>

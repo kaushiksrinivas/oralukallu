@@ -8,10 +8,16 @@
 </head>
 
 <style>
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
 .container {
 	position: relative;
 	text-align: center;
 	color: #E38E1C;
+	height: 100vh;
 }
 
 .centered {
@@ -30,9 +36,9 @@
 
 	<div class="container">
 
-		<img src="beige.jpg" alt="Snow" style="width: 100%;">
+		<img src="beige.jpg" alt="Snow" style="width: 100%; height: 100%">
 
-		<div class="centered"> Our products are loading..</div>
+		<div class="centered">Our products are loading..</div>
 
 	</div>
 </body>
