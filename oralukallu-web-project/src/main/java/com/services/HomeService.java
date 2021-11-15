@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 /*
  * The initial home page service controller for the web application
  * currently, does not render any data instead renders only a default
- * static home page.
+ * static home page. ok.
  */
 @RestController
 public class HomeService {
